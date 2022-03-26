@@ -90,6 +90,41 @@
             <br>Zeitgeist is a Bavarian-style eatery and bar in Shanghai, serving traditional German cuisine. They offer pork chops,
             assorted sausage varietals, brotzeit, and fresh draught beer from the barrel.
         </p>
+
+        <form action="https://formspree.io/f/xayvdnpz" method="POST">
+            <fieldset>
+              <legend>Contact Form</legend>
+              <label for="name_id">Your Name</label>
+              <input type="text" name ="name" placeholder="Enter Your Name" id="name_id">
+          
+              <label for="email_id">Your Email</label> 
+              <input type="email" name="email" id="email_id">
+        
+              <label for="phone_id">Your Phone Number</label>
+              <input type="tel" name="phone" id="phone_id">
+
+              <label for="food_id">Your Favorite Food</label>
+              <input type="text" list="food" id="food_id" name="city">
+              <datalist name ="food" id="food">
+                <option value="Chinese Food">Chinese Food</option>
+                <option value="Italian Food">Italian Food</option>
+                <option value="Fast Food">Fast Food</option>
+                <option value="French Food">French Food</option>
+                <option value="Korean Food">Korean Food</option>
+                <option value="Japanese Food">Japanese Food</option>
+              </datalist>
+
+              <!-- <div><span>Format: 123-456-7890</span></div> -->
+          
+              <label for="message_id">Leave A Message</label>
+              <textarea name="Message" id="message_id"></textarea>
+          
+              <input type="checkbox" name="remember" id="remember_id"> 
+              <label for="remember_id">Remember me</label>
+          
+              <input type="submit" >
+            </fieldset>
+           </form>
     </main>
     <footer>
         <p>Xiaoli Zhu &copy; 2022</p>
