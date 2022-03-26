@@ -129,7 +129,7 @@ img:hover{
     grid-template-columns: 1fr 5fr 1fr;
     
  }
- .local-imgs, .bistro-imgs{
+ .local-imgs, .bistro-imgs, .brunch-img{
     grid-column: 2;
     grid-row: auto;
     justify-self: center;
@@ -159,17 +159,7 @@ img:hover{
      text-transform: capitalize;
      font-weight: bold;
  }
- /*brunch page*/
- .brunch-img{
-     display: flex;
-     justify-content: center;
-     
- }
- .brunch-img img{
-    width: 240px;
-    
-     
- }
+ 
  .brunch h2{
      text-align: center;
      font-weight: bold;
